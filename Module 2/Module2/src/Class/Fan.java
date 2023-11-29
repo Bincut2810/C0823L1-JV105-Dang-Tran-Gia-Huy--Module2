@@ -74,8 +74,10 @@ public class Fan {
           fan2.setColor("blue");
           fan2.setOn(false);
 
+          Fan fan3 = new Fan(3,true,12,"red");
 
           System.out.println("Trang thai Fan 1:  " + fan1.toString());
           System.out.println("Trang thai Fan 2:  " + fan2.toString());
+          System.out.println("Trang thai Fan 3: " + fan3.toString());
      }
 }
