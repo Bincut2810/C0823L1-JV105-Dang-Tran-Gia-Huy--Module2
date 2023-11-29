@@ -46,6 +46,12 @@ public class Fan {
      public void setColor(String color) {
           this.color = color;
      }
+     public Fan(int speed, boolean on, double radius, String color){
+          this.speed = speed;
+          this.on = on;
+          this.radius = radius;
+          this.color = color;
+     }
 
      public String toString() {
           if (on) {
